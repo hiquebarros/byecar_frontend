@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
+@media(min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+.container-leftcolumn, .container-rightcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-basis: 100%;
+    font-family: "Inter";
+}
+.container-leftcolumn{
+    gap: 20px;
+    padding: 0 20px;
+}
+.container-leftcolumn h1{
+    font-size: 40px;
+}
+
+.svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
