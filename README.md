@@ -14,7 +14,7 @@
    `yarn`
    ou
    `npm install`
-3. Sua aplicação já deve estar pronta para ser startada. Rode o comando `yarn start` no seu terminal e certifique-se que a porta 3000 não está sendo usada pelo cliente.
+3. Sua aplicação já deve estar pronta para ser startada, agora resta apenas rodar o comando `yarn start` ou `npm start` no seu terminal.
 
 ## Rotas e tokens
 
