@@ -39,5 +39,5 @@ h3{
     font-weight: 700;
 }
 h3, h5{
-    color: rgb(38, 94, 112);
+    color: var(--brand2)
 }

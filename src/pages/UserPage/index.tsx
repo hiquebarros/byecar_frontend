@@ -24,7 +24,7 @@ const User = () => {
     const fetchData = async () => {
       setLoading(true)
       try {
-        const response = await axios.get("http://localhost:3000/", {
+        const response = await axios.get("https://byecarbackend-production.up.railway.app/", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setData(response.data);

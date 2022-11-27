@@ -21,10 +21,3 @@ Notas: As requisições do lado do cliente estão sendo disparadas para a porta 
 
 ## Rotas e tokens
 
-A rota principal deste projeto é a localhost:3001/byecar/:token, nela haverá a renderização de um componente que em sua montagem faz uma requisição utilizando o token do parametro. No intuito de simular o funcionamento dos tokens dos parceiros, preparei 3 rotas para visualização e testagem:
-
--  localhost:3001/byecar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiaWQiOiI5NzBmMDIzMi02YzA2LTExZWQtYTFlYi0wMjQyYWMxMjAwMDIiLCJpYXQiOjE1MTYyMzkwMjJ9.8RISrSnMjaxxDA-EGmBDMQWmxxVvCXvxMmEYn1fl4Mg
-
-- localhost:3001/byecar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiaWQiOiI4NTM1MzViMi02YzBjLTExZWQtYTFlYi0wMjQyYWMxMjAwMDIiLCJpYXQiOjE1MTYyMzkwMjJ9.vR1aJ5W2QsvAbIg0Rm8RSTCR4rD56WUKQwNKL_LZnWE
-
-- localhost:3001/byecar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiaWQiOiI5NWVjMDVhYy02YzBjLTExZWQtYTFlYi0wMjQyYWMxMjAwMDIiLCJpYXQiOjE1MTYyMzkwMjJ9.WyhkYbWqCm6ZsrBUsrq_D6ORs8sDRmhcZztYNYptSro
