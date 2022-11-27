@@ -2,8 +2,6 @@
 
 ## Como rodar a aplicação
 
-Notas: As requisições do lado do cliente estão sendo disparadas para a porta 3000, então é de extrema importância subir a API do projeto nesta porta, como está descrito no passo a passo abaixo.
-
 ### Ambiente e Ferramentas:
 
 - Yarn: https://yarnpkg.com/
@@ -11,13 +9,30 @@ Notas: As requisições do lado do cliente estão sendo disparadas para a porta 
 
 ### Passo a passo:
 
-1. Rode o servidor da aplicação na porta 3000, seguindo o read-me do repositório: https://github.com/hiquebarros/byecar_backend
-2. No seu terminal, clone o front da aplicação com o seguinte comando: `git clone git@github.com:hiquebarros/byecar_backend.git`
-3. Baixe as dependêncas do projeto utilizando o gerenciador de pacotes que preferir, com o seguints comandos:
+1. No seu terminal, clone o front da aplicação com o seguinte comando: `git clone git@github.com:hiquebarros/byecar_backend.git`
+2. Baixe as dependêncas do projeto utilizando o gerenciador de pacotes que preferir, com o seguints comandos:
    `yarn`
    ou
    `npm install`
-4. Sua aplicação já deve estar pronta para ser startada. Rode o comando `yarn start` no seu terminal e certifique-se que a porta 3000 não está sendo usada pelo cliente.
+3. Sua aplicação já deve estar pronta para ser startada. Rode o comando `yarn start` no seu terminal e certifique-se que a porta 3000 não está sendo usada pelo cliente.
 
 ## Rotas e tokens
+
+A rota principal da aplicação é a localhost:PORT/byecar/:token, qualquer url diferente desta irá renderizar a tela de 404. Na rota descrita, no momento de montagem do componente é feita uma requisição usando o token da url como header de authorization, a lógica da API vai recuperar o payload deste token e fornecer os dados do cliente. Dessa forma, é necessário contruir o token no site https://jwt.io/.
+
+## Contruindo o token
+
+1. Acesse o site https://jwt.io/
+2. Insira um dos id's abaixo dentro do payload.
+3. Insira a secret_key abaixo dentro da signature do token.
+4. Copie o token fornecido pelo site na url da aplicação. Por exemplo: localhost:3000/byecar/SEUTOKEN
+
+ [Orientações](https://cdn.discordapp.com/attachments/692881204256702536/1046542176739397642/Screenshot_from_2022-11-27_18-28-46.jpg)
+
+- Token do client Henrique: 970f0232-6c06-11ed-a1eb-0242ac120002
+- Token do client Tiago: 853535b2-6c0c-11ed-a1eb-0242ac120002
+- Token do client Thiago: 95ec05ac-6c0c-11ed-a1eb-0242ac120002
+
+- Secret_KEY: VmYq3t6w9z$C&F)J@NcQfTjWnZr4u7x!
+
 
