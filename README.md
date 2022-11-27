@@ -18,7 +18,7 @@
 
 ## Rotas e tokens
 
-A rota principal da aplicação é a localhost:PORT/byecar/:token, qualquer url diferente desta irá renderizar a tela de 404. Na rota descrita, no momento de montagem do componente é feita uma requisição usando o token da url como header de authorization, a lógica da API vai recuperar o payload deste token e fornecer os dados do cliente. Dessa forma, é necessário contruir o token no site https://jwt.io/.
+A rota principal da aplicação é a localhost:PORT/byecar/:token, qualquer url diferente desta irá renderizar a tela de 404. Nesta rota, no momento de montagem da página é feita uma requisição usando o token da url como header de authorization, a lógica da API vai recuperar o payload deste token e fornecer os dados do cliente. Dessa forma, é necessário contruir o token no site https://jwt.io/.
 
 ## Contruindo o token
 
