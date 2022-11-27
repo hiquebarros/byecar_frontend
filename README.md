@@ -24,15 +24,17 @@ A rota principal da aplicação é a localhost:PORT/byecar/:token, qualquer url 
 
 1. Acesse o site https://jwt.io/
 2. Insira um dos id's abaixo dentro do payload.
-3. Insira a secret_key abaixo dentro da signature do token.
-
- ![Orientações](https://cdn.discordapp.com/attachments/692881204256702536/1046542176739397642/Screenshot_from_2022-11-27_18-28-46.jpg)
-
+3. 
 - Token do client Henrique: 970f0232-6c06-11ed-a1eb-0242ac120002
 - Token do client Tiago: 853535b2-6c0c-11ed-a1eb-0242ac120002
 - Token do client Thiago: 95ec05ac-6c0c-11ed-a1eb-0242ac120002
+- 
+4. Insira a secret_key abaixo dentro da signature do token.
 
 - Secret_KEY: VmYq3t6w9z$C&F)J@NcQfTjWnZr4u7x!
+
+ ![Orientações](https://cdn.discordapp.com/attachments/692881204256702536/1046542176739397642/Screenshot_from_2022-11-27_18-28-46.jpg)
+
 
 4. Copie o token fornecido pelo site na url da aplicação. Por exemplo: localhost:3000/byecar/SEUTOKEN.
 
