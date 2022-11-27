@@ -9,7 +9,7 @@
 
 ### Passo a passo:
 
-1. No seu terminal, clone o front da aplicação com o seguinte comando: `git clone git@github.com:hiquebarros/byecar_backend.git`
+1. No seu terminal, clone o front da aplicação com o seguinte comando: `git clone git@github.com:hiquebarros/byecar_frontend.git`
 2. Baixe as dependêncas do projeto utilizando o gerenciador de pacotes que preferir, com o seguints comandos:
    `yarn`
    ou
