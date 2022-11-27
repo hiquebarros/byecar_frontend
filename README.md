@@ -24,12 +24,12 @@ A rota principal da aplicação é a localhost:PORT/byecar/:token, qualquer url 
 
 1. Acesse o site https://jwt.io/
 2. Insira um dos id's abaixo dentro do payload.
-3. 
+
 - Token do client Henrique: 970f0232-6c06-11ed-a1eb-0242ac120002
 - Token do client Tiago: 853535b2-6c0c-11ed-a1eb-0242ac120002
 - Token do client Thiago: 95ec05ac-6c0c-11ed-a1eb-0242ac120002
-- 
-4. Insira a secret_key abaixo dentro da signature do token.
+
+3. Insira a secret_key abaixo dentro da signature do token.
 
 - Secret_KEY: VmYq3t6w9z$C&F)J@NcQfTjWnZr4u7x!
 
